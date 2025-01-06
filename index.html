@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Modal Popup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Animated Modal Popup</h1>
+        <button id="openModal" class="btn-open">Open Modal</button>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>Welcome to Modal</h2>
+                <button class="btn-close" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-content">
+                <p>This is a beautiful animated modal popup! You can customize this content as needed.</p>
+                <div class="modal-image">
+                    <img src="https://source.unsplash.com/400x300/?nature" alt="Random Nature Image">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-action">Accept</button>
+                <button class="btn-cancel" id="cancelModal">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
